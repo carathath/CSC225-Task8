@@ -1,0 +1,37 @@
+h1{
+    color: darkorange;
+    text-decoration: underline;
+    text-decoration-color: crimson;
+}
+
+p{
+    font: medium;
+    font-weight: bolder;
+    color: blue;
+    margin-top: 25px;
+    border: dashed;
+    border-color: tomato;
+    text-align: center;
+}
+
+.clrchg { /* ol reliable from Project 1*/
+    animation: myanimation 3s infinite;
+  }
+  
+  @keyframes myanimation {
+    0% {color: blue;}
+    25%{color:red;}
+    50%{color:green;}
+    75%{color:purple;}
+    100% {color: gold;}
+  } /**/
+
+.pic{
+    border: dashed;
+    border-color: black;
+}
+
+img{
+    border-radius: 75%;
+    align-self: center;
+}
